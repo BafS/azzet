@@ -66,7 +66,7 @@ Don't send a lot of CSS files, compact and compress these in one single CSS.
 <html lang="en">
     <head>
         <title>Azzet - test</title>
-        <link href="azzet.php/css/[laticss|csstoolkit]&amp;main?ext=css&amp;min" rel="stylesheet">
+        <link href="azzet.php/css/[laticss|csstoolkit]&main?ext=css&min" rel="stylesheet">
     </head>
   
     <body>
