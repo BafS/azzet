@@ -40,11 +40,11 @@ etc...
  * One file minified :
 <code>azzet.php/main.css?min</code>
 
- * Files minified without .css extension :
-<code>azzet.php/main&admin&test?min&ext=css</code>
+ * Files minified with .css extension :
+<code>azzet.php/[main|admin|test]?min&ext=css</code>
 
- * Files minified without .css extension in assets dir with debug :
-<code>azzet.php/main&admin&test?min&ext=css&dir=assets&debug</code>
+ * Files minified with .css extension in assets dir with debug :
+<code>azzet.php/[main|admin|test]?min&ext=css&dir=assets&debug</code>
 
 
 #### Options available
@@ -61,7 +61,7 @@ Example
 -------
 Don't send a lot of CSS files, compact and compress these in one single CSS.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
